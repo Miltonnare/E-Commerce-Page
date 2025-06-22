@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="bg-white shadow-sm px-6 py-4 w-full">
       <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
-        {/* Left side: Logo and Nav Links */}
+      
         <div className="flex items-center space-x-10">
           <img src={Logo} alt="Sneakers Logo" className="h-5 w-auto" />
 
@@ -19,7 +19,7 @@ function Navbar() {
           </ul>
         </div>
 
-        {/* Right side: Cart + Avatar */}
+        
         <div className="flex items-center space-x-6">
           <img src={CartIcon} alt="Cart" className="h-5 w-auto cursor-pointer" />
           <img

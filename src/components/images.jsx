@@ -12,21 +12,33 @@ function Images() {
           src="/image-product-1-thumbnail.jpg"
           alt="Thumbnail 1"
           className="w-16 h-16 rounded-lg cursor-pointer hover:ring-2 ring-orange-500"
+          onClick={
+            ()=><img src="/image-product-1.jpg"/>
+          }
         />
         <img
           src="/image-product-2-thumbnail.jpg"
           alt="Thumbnail 2"
           className="w-16 h-16 rounded-lg cursor-pointer hover:ring-2 ring-orange-500"
+          onClick={
+            ()=><img src="/image-product-2.jpg"/>
+          }
         />
         <img
           src="/image-product-3-thumbnail.jpg"
           alt="Thumbnail 3"
           className="w-16 h-16 rounded-lg cursor-pointer hover:ring-2 ring-orange-500"
+          onClick={
+            ()=><img src="/image-product-3.jpg"/>
+          }
         />
         <img
           src="/image-product-4-thumbnail.jpg"
           alt="Thumbnail 4"
           className="w-16 h-16 rounded-lg cursor-pointer hover:ring-2 ring-orange-500"
+          onClick={
+            ()=><img src="/image-product-4.jpg"/>
+          }
         />
       </div>
     </div>
