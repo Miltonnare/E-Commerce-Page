@@ -5,12 +5,20 @@ import Images from "./components/images";
 import "./index.css";
 
 function App() {
+  const [cartItem,setCartItem]=useState(null);
+
+  const handleAddToCart=(quantity)=>{
+    if(quantity>0){
+      setCartItem({quantity})
+    }
+  }
+
   return (
     <div className="bg-white min-h-screen font-sans">
-      <Navbar />
+      <Navbar cartItem={cartItem}/>
       <div className="p-6 grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         <Images />
-        <Details />
+        <Details onAddToCart={handleAddToCart}/>
       </div>
     </div>
   );

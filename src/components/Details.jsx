@@ -9,7 +9,7 @@ let price='$125.00';
 let percentDiscount='50%';
 let initialamount='$250.00'
 
-function Details() {
+function Details({onAddToCart}) {
 
   const [quantity,setQuantity]=useState(0);
 
@@ -32,6 +32,10 @@ function PlusFunction(){
     return min+1
     }
   )
+}
+
+function handleAddToCart(){
+  onAddToCart(quantity)
 }
   return (
     <div className="p-6 bg-white max-w-xl mx-auto">
@@ -59,8 +63,11 @@ function PlusFunction(){
           <span className="mx-3">{quantity}</span>
           <img src={Plus} alt="Plus icon" className="cursor-pointer" onClick={PlusFunction}/>
         </div>
-        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded flex items-center space-x-2">
-          <img src={Cart} alt="Cart icon" />
+        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded flex items-center space-x-2"
+          onClick={handleAddToCart}
+          disabled={quantity==0}
+          >
+          <img src={Cart} alt="Cart icon"/>
           <span className="text-gray-700">Add to Cart</span>
         </button>
       </div>

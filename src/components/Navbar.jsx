@@ -2,7 +2,10 @@ import Logo from '../assets/logo.svg';
 import CartIcon from '../assets/icon-cart.svg';
 import Avatar from '../assets/image-avatar.png';
 
-function Navbar() {
+
+function Navbar({cartItem}) {
+  
+
   return (
     <nav className="bg-white shadow-sm px-6 py-4 w-full">
       <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
@@ -21,7 +24,14 @@ function Navbar() {
 
         
         <div className="flex items-center space-x-6">
-          <img src={CartIcon} alt="Cart" className="h-5 w-auto cursor-pointer" />
+          <img src={CartIcon} alt="Cart" className="h-6 w-auto cursor-pointer" 
+          />
+          {cartItem?.quantity > 0 && (
+        <span className="absolute top-6 right-23 bg-blue-500 text-white text-xs font-bold rounded-full px-2 py-0.5">
+          {cartItem.quantity}
+        </span>
+)}
+
           <img
             src={Avatar}
             alt="Profile"
