@@ -23,13 +23,14 @@ function Navbar({cartItem}) {
         <div className="flex items-center space-x-10">
           <img src={Logo} alt="Sneakers Logo" className="h-5 w-auto" />
 
-          <ul className="hidden md:flex items-center space-x-6 text-gray-500 font-medium border-red">
-            <li className="hover:text-black cursor-pointer">Collections</li>
-            <li className="hover:text-black cursor-pointer">Men</li>
-            <li className="hover:text-black cursor-pointer">Women</li>
-            <li className="hover:text-black cursor-pointer">About</li>
-            <li className="hover:text-black cursor-pointer">Contact</li>
-          </ul>
+          <ul className="hidden md:flex items-center space-x-6 text-gray-500 font-medium">
+              <li className="pb-2 hover:text-black hover:border-b-4 hover:border-orange-500 border-transparent">Collections</li>
+              <li className="pb-2 hover:text-black hover:border-b-4 hover:border-orange-500 border-transparent">Men</li>
+              <li className="pb-2 hover:text-black hover:border-b-4 hover:border-orange-500 border-transparent">Women</li>
+              <li className="pb-2 hover:text-black hover:border-b-4 hover:border-orange-500 border-transparent">About</li>
+              <li className="pb-2 hover:text-black hover:border-b-4 hover:border-orange-500 border-transparent">Contact</li>
+</ul>
+
         </div>
 
         
@@ -38,7 +39,7 @@ function Navbar({cartItem}) {
           onClick={toggleCart}
           />
           {cartItem?.quantity > 0 && (
-        <span className="absolute top-2 right-15 bg-blue-500 text-white text-xs font-bold rounded-full px-2 py-0.5">
+        <span className="absolute top-0 right-12 bg-orange-500 text-white text-xs font-bold rounded-full px-2 py-0.5">
           {cartItem.quantity}
         </span>
 )}
@@ -46,7 +47,7 @@ function Navbar({cartItem}) {
           <img
             src={Avatar}
             alt="Profile"
-            className="w-9 h-9 rounded-full border border-gray-300 cursor-pointer"
+            className="w-9 h-9 rounded-full border border-gray-300 cursor-pointer hover:border-2 hover:border-orange-500"
           />
           {
             showCart && (

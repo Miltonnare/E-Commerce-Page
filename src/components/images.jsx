@@ -110,8 +110,21 @@ function Images() {
             <img
               src={thumbnails[currentIndex].full}
               alt="Enlarged Product"
-              className="max-w-[80vw] max-h-[80vh] rounded-lg shadow-2xl"
+              className="max-w-[78vw] max-h-[75vh] rounded-lg shadow-2xl"
             />
+             <div className="flex justify-center space-x-4 mt-4">
+        {thumbnails.map((img, index) => (
+          <img
+            key={index}
+            src={img.thumb}
+            alt={img.alt}
+            onClick={() => setCurrentIndex(index)}
+            className={`w-16 h-16 rounded-lg cursor-pointer border-2 
+              ${currentIndex === index ? "border-orange-500" : "border-transparent"} 
+              hover:border-orange-500`}
+          />
+        ))}
+      </div>
           </div>
         </div>
       )}

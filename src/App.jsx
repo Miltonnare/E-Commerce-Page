@@ -6,7 +6,7 @@ import "./index.css";
 import ErrorBoundary from "./components/errorBoundary";
 
 function App() {
-  const [cartItem,setCartItem]=useState({quantity:1,price:125});
+  const [cartItem,setCartItem]=useState({quantity:0,price:125});
 
   const handleAddToCart=(quantity)=>{
     if(quantity>0){
