@@ -1,7 +1,10 @@
 import Logo from '../assets/logo.svg';
 import CartIcon from '../assets/icon-cart.svg';
 import Avatar from '../assets/image-avatar.png';
+import HamburgerIcon from '../assets/icon-menu.svg';
+import CloseIcon from '../assets/icon-close.svg';
 import { useState } from 'react';
+
 
 
 function Navbar({cartItem}) {
@@ -15,10 +18,21 @@ function Navbar({cartItem}) {
 
   const toggleCart=()=>setShowCart(prev=>!prev)
   const total=safeCartItem.quantity*safeCartItem.price;
+  const[sidebarOpen,setSidebarOpen]=useState(false);
+  const toggleSidebar=()=>setSidebarOpen(prev=>!prev)
 
   return (
     <nav className="bg-white shadow-sm px-6 py-4 w-full">
       <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
+        <div className='md:hidden mr-4'>
+          <img 
+          src={HamburgerIcon}
+           alt="Hamburger Menu" 
+           className='h-6 w-6 cursor-pointer'
+           onClick={toggleSidebar}
+           />
+
+        </div>
       
         <div className="flex items-center space-x-10">
           <img src={Logo} alt="Sneakers Logo" className="h-5 w-auto" />
@@ -81,6 +95,24 @@ function Navbar({cartItem}) {
             )
           }
         </div>
+        
+      </div>
+      <div
+          className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg p-6 transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+          onClick={e => e.stopPropagation()}
+        >
+        <button className='mb-8 'onClick={toggleSidebar}>
+          <img src={CloseIcon} alt="Close Menu" className='h-6 w-6' />
+
+        </button>
+        <ul className='flex flex-col space-y-6 text-gray-700 font-medium text-lg'>
+         <li className="hover:text-orange-500">Collections</li>
+            <li className="hover:text-orange-500">Men</li>
+            <li className="hover:text-orange-500">Women</li>
+            <li className="hover:text-orange-500">About</li>
+            <li className="hover:text-orange-500">Contact</li>
+
+        </ul>
       </div>
     </nav>
   );

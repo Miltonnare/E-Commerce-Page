@@ -18,14 +18,14 @@ function App() {
   }
 
   return (
-    <div className="bg-white min-h-screen font-sans">
+    <div className="bg-white min-h-screen font-sans w-full">
       <ErrorBoundary> 
 
         <Navbar cartItem={cartItem}/>
 
       </ErrorBoundary>
       
-      <div className="p-6 grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="p-6 grid md:grid-cols-2 gap-8 max-w-6xl mx-auto w-full">
         <Images />
         <Details onAddToCart={handleAddToCart}/>
       </div>

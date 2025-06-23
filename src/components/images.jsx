@@ -112,19 +112,17 @@ function Images() {
               alt="Enlarged Product"
               className="max-w-[78vw] max-h-[75vh] rounded-lg shadow-2xl"
             />
-             <div className="flex justify-center space-x-4 mt-4">
-        {thumbnails.map((img, index) => (
-          <img
-            key={index}
-            src={img.thumb}
-            alt={img.alt}
-            onClick={() => setCurrentIndex(index)}
-            className={`w-16 h-16 rounded-lg cursor-pointer border-2 
-              ${currentIndex === index ? "border-orange-500" : "border-transparent"} 
-              hover:border-orange-500`}
-          />
-        ))}
-      </div>
+             <div className="flex flex-wrap gap-2 w-full justify-center mb-4 sm:mb-6 md:space-x-4 md:flex-nowrap">
+  {thumbnails.map((img, index) => (
+    <img
+      key={index}
+      src={img.thumb}
+      alt={img.alt}
+      className="w-1/4 min-w-[64px] max-w-[90px] h-16 rounded-lg cursor-pointer hover:ring-2 ring-orange-500 object-cover md:w-16 md:min-w-0 md:max-w-none"
+      onClick={() => openOverlay(index)}
+    />
+  ))}
+</div>
           </div>
         </div>
       )}
