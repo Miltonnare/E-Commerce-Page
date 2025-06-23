@@ -57,13 +57,13 @@ function handleAddToCart(){
       </div>
       <div className="text-gray-400 line-through mb-4">{initialamount}</div>
 
-      <div className="flex items-center space-x-4">
-        <div className="flex items-center bg-gray-100 px-4 py-2 rounded gap-x-4">
+      <div className="flex flex-col gap-4 mt-4 w-full">
+        <div className="flex items-center bg-gray-100 px-4 py-2 rounded gap-x-4 w-full sm:w-auto mx-2 sm:mx-0 justify-between">
           <img src={Minus} alt="Minus icon" className="cursor-pointer" onClick={MinusFunction} />
-          <span className="mx-3">{quantity}</span>
+          <span className="mx-3 ">{quantity}</span>
           <img src={Plus} alt="Plus icon" className="cursor-pointer" onClick={PlusFunction}/>
         </div>
-        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded flex items-center space-x-2"
+        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded flex items-center justify-center space-x-2 w-full sm:w-auto"
           onClick={handleAddToCart}
           disabled={quantity==0}
           >
