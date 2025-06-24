@@ -1,12 +1,101 @@
-# React + Vite
+Commerce Product Page Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the E-commerce product page challenge on Frontend Mentor. This challenge helped me improve my skills in React, Tailwind CSS, component structure, and responsive design by building a realistic product landing page.
 
-Currently, two official plugins are available:
+Table of contents
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The challenge
 
-## Expanding the ESLint configuration
+SCREENSHOTS
+![Sneaker's Landing Page](../../../Pictures/sneakers1.png)
+![Cart Functionality](sneakers2.png)
+![Empty Cart Functionality](Sneakers3.png)
+![LightBx Functionality](Sneakers4.png)
+Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My process
+
+Built 
+
+Vite
+
+Semantic HTML5
+
+Tailwind CSS – utility-first styling
+
+React – component-based UI structure
+
+Flexbox and CSS Grid
+
+What I learned
+
+This project sharpened my skills in component architecture and styling using Tailwind. I learned to:
+
+Structure reusable components like Navbar, Details, and Images
+
+Betterment of the React Components, Props and the Hooks
+
+Handle layout distribution using Tailwind’s flex, justify-between, and spacing utilities
+
+Apply Tailwind’s version 4 directive to manage centralized styling in index.css
+
+Organize my layout using grid and responsive containers for consistent spacing
+Continued development
+
+Useful resources
+
+[Tailwind CSS Documentation](https://tailwindcss.com/docs) – Core for layout and design
+
+[React Docs](https://reactjs.org/docs/getting-started.html)– Helped with component planning
+
+
+
+
+Links
+Solution URL: https://github.com/yourusername/ecommerce-product-page
+
+Live Site URL: https://yourusername.github.io/ecommerce-product-page
+
+My process
+Built with
+Semantic HTML5
+
+Tailwind CSS – utility-first styling
+
+React – component-based UI structure
+
+Flexbox and CSS Grid
+
+Mobile-first responsive layout
+
+What I learned
+This project sharpened my skills in component architecture and styling using Tailwind. I learned to:
+
+Structure reusable components like Navbar, Details, and Images
+
+Handle layout distribution using Tailwind’s flex, justify-between, and spacing utilities
+
+Apply Tailwind’s @apply directive to manage centralized styling in index.css
+
+Organize my layout using grid and responsive containers for consistent spacing
+
+Continued development
+
+In future iterations, I’d like to:
+
+Implement a working lightbox modal for product image previews
+
+Add cart persistence using localStorage
+
+Animate thumbnail transitions and image switch
+
+Introduce a checkout system with form validation
+
+Work on the Backend
+
+
+Author
+
+Website – Miltonnare
+
