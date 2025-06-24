@@ -8,10 +8,15 @@ Overview
 The challenge
 
 SCREENSHOTS
+
 ![Sneaker's Landing Page](../../../Pictures/sneakers1.png)
+
 ![Cart Functionality](sneakers2.png)
+
 ![Empty Cart Functionality](Sneakers3.png)
+
 ![LightBx Functionality](Sneakers4.png)
+
 Links
 
 My process
