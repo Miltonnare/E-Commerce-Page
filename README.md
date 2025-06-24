@@ -2,15 +2,15 @@ Commerce Product Page Solution
 
 This is a solution to the E-commerce product page challenge on Frontend Mentor. This challenge helped me improve my skills in React, Tailwind CSS, component structure, and responsive design by building a realistic product landing page.
 
-Table of contents
-Overview
-
-The challenge
 
 SCREENSHOTS
+
 <img width="940" <img width="940" alt="sneakers2" src="https://github.com/user-attachments/assets/f53df6ee-27e7-43f0-a54e-30894c7136f8" />
-alt="sneakers1" src="https://github.com/user-attachments/assets/4d5d2c2d-499d-4c57-ba06-ed117e695513" />
+
+<img width="940" alt="sneakers1" src="https://github.com/user-attachments/assets/4f4db538-fe61-4d97-80ad-005f04c5558c" />
+
 <img width="938" alt="Sneakers3" src="https://github.com/user-attachments/assets/ca5c4bac-fd89-4c1e-94cb-d89d6df17154" />
+
 <img width="926" alt="Sneakers4" src="https://github.com/user-attachments/assets/f9cf2651-8631-42a8-9109-286b2d61ebc8" />
 
 ![Sneaker's Landing Page](../../../Pictures/sneakers1.png)
