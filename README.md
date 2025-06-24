@@ -1,9 +1,9 @@
-Commerce Product Page Solution
+**#Commerce Product Page Solution**
 
 This is a solution to the E-commerce product page challenge on Frontend Mentor. This challenge helped me improve my skills in React, Tailwind CSS, component structure, and responsive design by building a realistic product landing page.
 
 
-SCREENSHOTS
+**##SCREENSHOTS**
 
 <img width="940"  alt="sneakers2" src="https://github.com/user-attachments/assets/f53df6ee-27e7-43f0-a54e-30894c7136f8" />
 
@@ -14,7 +14,7 @@ SCREENSHOTS
 <img width="926" alt="Sneakers4" src="https://github.com/user-attachments/assets/f9cf2651-8631-42a8-9109-286b2d61ebc8" />
 
 
-Built  With:
+**##Built  With:**
 
 Vite
 
@@ -26,7 +26,7 @@ React – component-based UI structure
 
 Flexbox and CSS Grid
 
-What I learned
+**##What I learned**
 
 This project sharpened my skills in component architecture and styling using Tailwind. I learned to:
 
@@ -41,7 +41,7 @@ Apply Tailwind’s version 4 directive to manage centralized styling in index.cs
 Organize my layout using grid and responsive containers for consistent spacing
 Continued development
 
-Useful resources
+**##Useful resources**
 
 [Tailwind CSS Documentation](https://tailwindcss.com/docs) – Core for layout and design
 
@@ -50,14 +50,14 @@ Useful resources
 
 
 
-Links
+**##Links**
 
 Solution URL: https://github.com/Miltonnare/E-Commerce-Page.git
 
 Live Site URL: https://yourusername.github.io/ecommerce-product-page
 
 
-Built with
+**##Built with**
 
 Semantic HTML5
 
@@ -69,7 +69,7 @@ Flexbox and CSS Grid
 
 Mobile-first responsive layout
 
-What I learned
+**##What I learned**
 
 This project sharpened my skills in component architecture and styling using Tailwind. I learned to:
 
@@ -81,7 +81,7 @@ Apply Tailwind’s @apply directive to manage centralized styling in index.css
 
 Organize my layout using grid and responsive containers for consistent spacing
 
-Continued development
+**##Continued development**
 
 In future iterations, I’d like to:
 
@@ -96,7 +96,7 @@ Introduce a checkout system with form validation
 Work on the Backend
 
 
-Author
+**##Author**
 
 Website – Miltonnare
 
