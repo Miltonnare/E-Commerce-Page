@@ -5,27 +5,27 @@ import PrevIcon from "../assets/icon-previous.svg";
 
 function Images() {
   const thumbnails = [
-    {
-      thumb: import.meta.env.BASE_URL + "image-product-1-thumbnail.jpg",
-      full: "image-product-1.jpg",
-      alt: "Thumbnail 1",
-    },
-    {
-      thumb: "image-product-2-thumbnail.jpg",
-      full: "image-product-2.jpg",
-      alt: "Thumbnail 2",
-    },
-    {
-      thumb: "image-product-3-thumbnail.jpg",
-      full: "image-product-3.jpg",
-      alt: "Thumbnail 3",
-    },
-    {
-      thumb: "image-product-4-thumbnail.jpg",
-      full: "image-product-4.jpg",
-      alt: "Thumbnail 4",
-    },
-  ];
+  {
+    thumb: import.meta.env.BASE_URL + "image-product-1-thumbnail.jpg",
+    full: import.meta.env.BASE_URL + "image-product-1.jpg",
+    alt: "Thumbnail 1",
+  },
+  {
+    thumb: import.meta.env.BASE_URL + "image-product-2-thumbnail.jpg",
+    full: import.meta.env.BASE_URL + "image-product-2.jpg",
+    alt: "Thumbnail 2",
+  },
+  {
+    thumb: import.meta.env.BASE_URL + "image-product-3-thumbnail.jpg",
+    full: import.meta.env.BASE_URL + "image-product-3.jpg",
+    alt: "Thumbnail 3",
+  },
+  {
+    thumb: import.meta.env.BASE_URL + "image-product-4-thumbnail.jpg",
+    full: import.meta.env.BASE_URL + "image-product-4.jpg",
+    alt: "Thumbnail 4",
+  },
+];
 
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -55,10 +55,10 @@ function Images() {
     <div className="p-6 bg-white max-w-xl mx-auto">
 
       <img
-        src="image-product-1.jpg"
-        alt="Main Product"
-        className="rounded-lg mb-4"
-      />
+      src={import.meta.env.BASE_URL + "image-product-1.jpg"}
+      alt="Main Product"
+      className="rounded-lg mb-4"
+/>
 
       <div className="flex space-x-4">
         {thumbnails.map((img, index) => (
