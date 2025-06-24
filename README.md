@@ -54,7 +54,7 @@ Continued development
 
 Solution URL: https://github.com/Miltonnare/E-Commerce-Page.git
 
-Live Site URL: https://yourusername.github.io/ecommerce-product-page
+Live Site URL: https://miltonnare.github.io/E-Commerce-Page/
 
 
 ## **Built with**
