@@ -6,7 +6,7 @@ import PrevIcon from "../assets/icon-previous.svg";
 function Images() {
   const thumbnails = [
     {
-      thumb: "image-product-1-thumbnail.jpg",
+      thumb: import.meta.env.BASE_URL + "image-product-1-thumbnail.jpg",
       full: "image-product-1.jpg",
       alt: "Thumbnail 1",
     },
