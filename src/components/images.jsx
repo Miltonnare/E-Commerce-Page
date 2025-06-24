@@ -6,23 +6,23 @@ import PrevIcon from "../assets/icon-previous.svg";
 function Images() {
   const thumbnails = [
     {
-      thumb: "/image-product-1-thumbnail.jpg",
-      full: "/image-product-1.jpg",
+      thumb: "image-product-1-thumbnail.jpg",
+      full: "image-product-1.jpg",
       alt: "Thumbnail 1",
     },
     {
-      thumb: "/image-product-2-thumbnail.jpg",
-      full: "/image-product-2.jpg",
+      thumb: "image-product-2-thumbnail.jpg",
+      full: "image-product-2.jpg",
       alt: "Thumbnail 2",
     },
     {
-      thumb: "/image-product-3-thumbnail.jpg",
-      full: "/image-product-3.jpg",
+      thumb: "image-product-3-thumbnail.jpg",
+      full: "image-product-3.jpg",
       alt: "Thumbnail 3",
     },
     {
-      thumb: "/image-product-4-thumbnail.jpg",
-      full: "/image-product-4.jpg",
+      thumb: "image-product-4-thumbnail.jpg",
+      full: "image-product-4.jpg",
       alt: "Thumbnail 4",
     },
   ];
@@ -55,7 +55,7 @@ function Images() {
     <div className="p-6 bg-white max-w-xl mx-auto">
 
       <img
-        src="/image-product-1.jpg"
+        src="image-product-1.jpg"
         alt="Main Product"
         className="rounded-lg mb-4"
       />
