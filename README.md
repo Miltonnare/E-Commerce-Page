@@ -5,7 +5,7 @@ This is a solution to the E-commerce product page challenge on Frontend Mentor. 
 
 SCREENSHOTS
 
-<img width="940" <img width="940" alt="sneakers2" src="https://github.com/user-attachments/assets/f53df6ee-27e7-43f0-a54e-30894c7136f8" />
+<img width="940"  alt="sneakers2" src="https://github.com/user-attachments/assets/f53df6ee-27e7-43f0-a54e-30894c7136f8" />
 
 <img width="940" alt="sneakers1" src="https://github.com/user-attachments/assets/4f4db538-fe61-4d97-80ad-005f04c5558c" />
 
@@ -13,19 +13,8 @@ SCREENSHOTS
 
 <img width="926" alt="Sneakers4" src="https://github.com/user-attachments/assets/f9cf2651-8631-42a8-9109-286b2d61ebc8" />
 
-![Sneaker's Landing Page](../../../Pictures/sneakers1.png)
 
-![Cart Functionality](sneakers2.png)
-
-![Empty Cart Functionality](Sneakers3.png)
-
-![LightBx Functionality](Sneakers4.png)
-
-Links
-
-My process
-
-Built 
+Built  With:
 
 Vite
 
@@ -62,12 +51,14 @@ Useful resources
 
 
 Links
-Solution URL: https://github.com/yourusername/ecommerce-product-page
+
+Solution URL: https://github.com/Miltonnare/E-Commerce-Page.git
 
 Live Site URL: https://yourusername.github.io/ecommerce-product-page
 
-My process
+
 Built with
+
 Semantic HTML5
 
 Tailwind CSS – utility-first styling
@@ -79,6 +70,7 @@ Flexbox and CSS Grid
 Mobile-first responsive layout
 
 What I learned
+
 This project sharpened my skills in component architecture and styling using Tailwind. I learned to:
 
 Structure reusable components like Navbar, Details, and Images
@@ -107,4 +99,6 @@ Work on the Backend
 Author
 
 Website – Miltonnare
+
+NOTE: Open to any Opinions
 
